@@ -23,7 +23,7 @@
 #  6. Identify reference CpG sites
 #  7. Measure CpG retention across haplotypes
 #
-# Biological next step (not in this script):
+# Biological next step:
 #  1. Extract reference CCGG motifs
 #  2. Retrieve ±15 bp flanks
 #  3. Search haplotype paths
