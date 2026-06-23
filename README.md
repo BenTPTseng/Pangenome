@@ -33,13 +33,12 @@
 # Data products:
 #
 # GBZ
-# ├── extract chr6 chunk
-# │      └── chunk_0_chr6.gbz
-# │
 # ├── extract reference paths
 # │      ├── GRCh38_chr6.fa
-# │      └── CHM13_chr6.fa
-# │
+# │      └── CHM13_chr6.fa (NOT USED)
+# ├── extract chr6 chunk
+# │      └── chunk_0_chr6.gbz
+# │             └── chr6_paths.txt
 # └── scan CCGG motifs (in R)
 #
 #========================================#
