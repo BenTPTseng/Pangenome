@@ -72,11 +72,11 @@ for (p in pkgs) {
 # Initial settings
 #===============================================================================
 # Define the working directory:
-wd_dir <- "/Users/beuser/Desktop/vg-files" #FIXME
+wd_dir <- "" #FIXME
 setwd(dir = wd_dir)
 
 # Path to the vg executable on the computer
-vg_path <- "/Users/beuser/vg/bin/vg" #FIXME
+vg_path <- "" #FIXME
 
 #===============================================================================
 # Initial setup
