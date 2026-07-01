@@ -11,7 +11,7 @@ vg version
 
 #-------[ Directories ]--------#
 # Input directory
-WD_DIR="/Users/beuser/Desktop/vg-files" #FIXME
+WD_DIR="" #FIXME
 
 cd "${WD_DIR}"
 
