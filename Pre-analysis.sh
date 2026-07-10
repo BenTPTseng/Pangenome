@@ -3,14 +3,17 @@
 set -euo pipefail
 
 #-------[ Required tools ]--------#
-brew install vg
+if ! command -v vg >/dev/null 2>&1; then
+    echo "Error: vg is not installed or not in PATH."
+    exit 1
+fi
 
 echo
 echo "=== Environment ==="
 vg version
 
 #-------[ Directories ]--------#
-# Input directory
+# Working directory
 WD_DIR="" #FIXME
 
 cd "${WD_DIR}"
